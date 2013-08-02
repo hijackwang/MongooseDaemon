@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "mongoose.podspec"
+  s.name         = "mongoose"
   s.version      = "3.8"
   s.summary      = "Mongoose Objecitve-C Wraper"
   s.homepage     = "http://EXAMPLE/Example.podspec"
