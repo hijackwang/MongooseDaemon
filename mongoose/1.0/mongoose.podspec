@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'mongoose'
   s.version      = '1.0'
   s.summary      = "Mongoose OC Wraper."
-  s.homepage     = 'http://EXAMPLE/Example.podspec'
+  s.homepage     = 'https://github.com/hijackwang/MongooseDaemon'
   s.license      = 'BSD'
 
   s.author       = 'Rama McIntosh', 'CIM', 'Jack Wang'
