@@ -52,5 +52,8 @@ And that's it!
 
 ---
 
-Copyright (c) 2008 Rama McIntosh, 2013 CIM
-Released under the BSD license found in the file LICENSE
+Credit:
+2008 Rama McIntosh, 
+2013 CIM
+
+Mongoose is dual-licensed. It is available under the terms of GNU GPL v.2 license license for free, or under the terms of standard commercial license provided by Cesanta Software.
