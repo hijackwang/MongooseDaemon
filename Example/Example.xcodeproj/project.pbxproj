@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1600984217C4FA07006227AC /* RootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600984117C4FA07006227AC /* RootViewController.storyboard */; };
+		1600984517C4FA21006227AC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600984417C4FA21006227AC /* RootViewController.m */; };
 		163DC29517AB5934009638B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163DC29417AB5934009638B4 /* UIKit.framework */; };
 		163DC29717AB5934009638B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163DC29617AB5934009638B4 /* Foundation.framework */; };
 		163DC29917AB5934009638B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163DC29817AB5934009638B4 /* CoreGraphics.framework */; };
@@ -25,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1600984117C4FA07006227AC /* RootViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RootViewController.storyboard; sourceTree = "<group>"; };
+		1600984317C4FA21006227AC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1600984417C4FA21006227AC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		163DC29117AB5934009638B4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163DC29417AB5934009638B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		163DC29617AB5934009638B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +104,9 @@
 				163DC2A317AB5934009638B4 /* YLAppDelegate.h */,
 				163DC2A417AB5934009638B4 /* YLAppDelegate.m */,
 				163DC29B17AB5934009638B4 /* Supporting Files */,
+				1600984117C4FA07006227AC /* RootViewController.storyboard */,
+				1600984317C4FA21006227AC /* RootViewController.h */,
+				1600984417C4FA21006227AC /* RootViewController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				163DC2C817AB5A5D009638B4 /* README.md in Resources */,
 				163DC2C917AB5A5D009638B4 /* UserManual.md in Resources */,
 				163DC2CF17ABBBF3009638B4 /* Web in Resources */,
+				1600984217C4FA07006227AC /* RootViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +213,7 @@
 				163DC2A517AB5934009638B4 /* YLAppDelegate.m in Sources */,
 				163DC2C717AB5A5D009638B4 /* mongoose.c in Sources */,
 				163DC2CA17AB5A5D009638B4 /* MongooseDaemon.m in Sources */,
+				1600984517C4FA21006227AC /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,18 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    NSString *webPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Web"];
-    
-    mongooseDaemon = [[MongooseDaemon alloc] init];
-    mongooseDaemon.documentRoot = webPath;
-    mongooseDaemon.listeningPort = 8888;
-    [mongooseDaemon start];    
-    
+       
     return YES;
 }
 

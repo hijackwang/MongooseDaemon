@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MongooseDaemon.h"
 
 @interface YLAppDelegate : UIResponder <UIApplicationDelegate>
-{
-    MongooseDaemon    *mongooseDaemon;
-}
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end
